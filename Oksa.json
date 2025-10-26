@@ -67,7 +67,7 @@
       "tag": "Auto",
       "outbounds": [
         "XL-B1",
-        "XL-B19"
+        "XL-B9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "30s",
