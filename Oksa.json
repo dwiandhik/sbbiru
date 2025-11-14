@@ -66,6 +66,8 @@
       "type": "urltest",
       "tag": "Auto",
       "outbounds": [
+        "XL-B001",
+        "XL-B002",
         "XL-B1",
         "XL-B9"
       ],
@@ -73,6 +75,52 @@
       "interval": "30s",
       "tolerance": 5
     },
+    {
+      "alter_id": 0,
+      "packet_encoding": "",
+      "security": "auto",
+      "server": "104.18.1.196",
+      "server_port": 80,
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "sgx.premi.my.id"
+      },
+      "transport": {
+        "headers": {
+          "Host": "sgx.premi.my.id"
+        },
+        "path": "/vmess",
+        "type": "ws"
+      },
+      "uuid": "b10f5aaa-f036-43c3-af34-224a700a40e7",
+      "type": "vmess",
+      "tag": "XL-B001"
+    },
+    {
+      "alter_id": 0,
+      "packet_encoding": "",
+      "security": "auto",
+      "server": "104.18.1.196",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sgx.premi.my.id"
+      },
+      "transport": {
+        "headers": {
+          "Host": "sgx.premi.my.id"
+        },
+        "path": "/vmess",
+        "type": "ws"
+      },
+      "uuid": "b10f5aaa-f036-43c3-af34-224a700a40e7",
+      "type": "vmess",
+      "tag": "XL-B002"
+    },
+
+    
     {
       "alter_id": 0,
       "packet_encoding": "",
